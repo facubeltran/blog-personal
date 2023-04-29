@@ -32,6 +32,7 @@ main{
     grid-template-rows: auto;
     grid-gap: 5px;
     margin: 0px 5%;
+    margin-bottom: 15px;
 }
 
 section{
@@ -70,6 +71,35 @@ section{
 
 footer{
     background-color: rgba(131, 161, 167, 0.576);
-    height: 80px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
 }
 
+.redes{
+    display: flex;
+    background-color: #333333;
+    border-radius: 50%;
+    margin-right: 50px;
+    padding-left: 10px;
+}
+
+.redes_enlace{
+    display: block;
+    width: 42px;
+    height: 42px;
+    margin: 2rem 1rem;
+    background-color: #333333;
+
+}
+
+li::marker{
+    content: none;
+}
+
+.titulo_footer{
+    background-color: aliceblue;
+    
+}
