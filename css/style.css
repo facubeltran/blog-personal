@@ -92,7 +92,6 @@ footer{
     height: 42px;
     margin: 2rem 1rem;
     background-color: #333333;
-
 }
 
 li::marker{
@@ -100,6 +99,17 @@ li::marker{
 }
 
 .titulo_footer{
-    background-color: aliceblue;
+    padding-left: 40px;
     
+}
+
+.texto_footer{
+   display: flex;
+   align-items: center;
+
+}
+
+.texto_link_footer{
+    text-decoration: underline; 
+    color: #333333;
 }
