@@ -2,7 +2,7 @@ body{
     background-color: rgb(217, 230, 242);
 }
 .header-principal{
-    background-image: url("/img/fondo.png");
+    background-image: url("../img/fondo.png");
     background-size: cover;
     background-position: center center;
     color: beige;
